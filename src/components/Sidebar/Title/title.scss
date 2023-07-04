@@ -1,0 +1,30 @@
+@import 'assets/styles/colors.scss';
+@import 'assets/styles/typography.scss';
+
+.name {
+    @include font-base(3rem, $fontWeightThick);
+    line-height: 4rem;
+}
+
+.role {
+    @include font-base($fontSixe4XLarge, $fontWeightThick);
+}
+
+.motto {
+    @include font-base($fontSixeXXLarge, $fontWeightNormal);
+}
+
+@media (max-width: 768px) {
+    .name {
+        @include font-base(2.25rem, $fontWeightThick);
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .name {
+        @include font-base(1.85rem, $fontWeightThick);
+        line-height: 2rem;
+    }
+}

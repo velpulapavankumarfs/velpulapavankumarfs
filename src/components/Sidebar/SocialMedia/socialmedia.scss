@@ -1,0 +1,28 @@
+
+@import 'assets/styles/colors';
+
+.network {
+    position: absolute;
+    top: 80vh;
+    width: 100%;
+}
+
+.icon {
+    margin-left: 18px;
+    height: 26px;
+    width: 26px;
+    color: #869BBC;
+    cursor: pointer;
+
+    &:hover {
+        color: $cement;
+    }
+}
+
+@media (max-width: 768px) {
+    .network {
+        border: 1px solid green;
+        position: initial;
+    }
+}
+

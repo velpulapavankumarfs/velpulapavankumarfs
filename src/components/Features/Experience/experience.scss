@@ -1,0 +1,46 @@
+@import '~assets/styles/defaults.scss';
+
+.card {
+    border: 0;
+    background-color: transparent;
+    padding: 25px 0;
+    margin: 10px 0;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 1;
+        background-color: #151F32;
+        border-radius: 2px;
+
+        .title {
+            color: $buttonPrimaryText;
+        }
+
+    }
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box-33 {
+    width: calc(33.3333% - 15px);
+}
+
+.box-66 {
+    width: calc(66.6666% - 15px);
+}
+
+.btn {
+    font-size: $fontSixeLarge;
+    border-radius: 23px;
+    color: $buttonPrimaryText;
+    background-color: $buttonBackgroundColor;
+    margin-right: 10px;
+    height: 30px;
+    vertical-align: middle;
+    pointer-events: none;
+}

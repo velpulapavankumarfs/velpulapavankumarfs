@@ -1,0 +1,11 @@
+.content {
+    flex: 50%;
+    margin-left: 45%;
+}
+
+@media (max-width: 768px) {
+    .content {
+        position: relative;
+        margin-left: 0;
+    }
+}

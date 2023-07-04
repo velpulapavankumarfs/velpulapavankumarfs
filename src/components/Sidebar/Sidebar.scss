@@ -1,0 +1,14 @@
+.sideBar {
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    width: 30%;
+    margin-top: 5%;
+}
+
+@media (max-width: 768px) {
+    .sideBar {
+        position: relative;
+        width: 100%;
+    }
+}

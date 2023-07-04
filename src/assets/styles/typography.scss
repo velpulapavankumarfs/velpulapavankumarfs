@@ -1,0 +1,57 @@
+@import 'assets/styles/colors.scss';
+
+/* ----- Variables ----- */
+
+$fontFamilyBase: "Roboto", Arial, Helvetica;
+
+$fontSixeXXSmall: 8px;
+$fontSixeXSmall: 9px;
+$fontSixeSmall: 10px;
+$fontSixeMedium: 11px;
+$fontSixeLarge: 12px;
+$fontSixeXLarge: 13px;
+$fontSixeXXLarge: 15px;
+$fontSixeXXXLarge: 17px;
+$fontSixe4XLarge: 23px;
+$fontSixe5XLarge: 30px;
+$fontSixe6XLarge: 35px;
+
+$fontWeightLight: 300;
+$fontWeightNormal: 400;
+$fontWeightLessBold: 500;
+$fontWeightBold: 600;
+$fontWeightThick: 700;
+
+/* ----- Styles ----- */
+
+@mixin  responsive-font-weight() {
+    font-weight: $fontWeightNormal;    
+}
+
+@mixin  font-responsive() {
+    font-weight: $fontWeightNormal;    
+}
+
+@mixin font-base($size: $fontSixeXLarge, $weight: $fontWeightNormal, $color: $textBase, $style: normal, $responsive: true) {
+    @if $color {
+        color: $color;
+    }
+    font-weight: $weight;
+    font-size: $size;
+    font-style: $style;    
+}
+
+@mixin font-header($size: $fontSixeXLarge, $weight: $fontWeightLessBold, $color: $textBase, $style: normal) {
+    @if $color {
+        color: $color;
+    }
+    font-weight: $weight;
+    font-size: $size;
+    font-style: $style;    
+}
+
+@mixin font-error($size: $fontSixeXLarge, $weight: $fontWeightLight, $color: $textError) {
+    color: $color;
+    font-weight: $weight;
+    font-size: $size;
+}
