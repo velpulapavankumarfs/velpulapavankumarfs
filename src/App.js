@@ -1,6 +1,5 @@
 import Sidebar from "./components/Sidebar/Sidebar";
 import Content from './components/Content/Content';
-import { useEffect } from "react";
 import "./app.scss";
 
 function App() {
