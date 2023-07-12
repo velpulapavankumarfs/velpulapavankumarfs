@@ -2,12 +2,12 @@
 @import 'assets/styles/typography.scss';
 
 .name {
-    @include font-base(3rem, $fontWeightThick);
-    line-height: 4rem;
+    @include font-base(2.6rem, $fontWeightThick, $headerText);
+    line-height: 2rem;
 }
 
 .role {
-    @include font-base($fontSixe4XLarge, $fontWeightThick);
+    @include font-base($fontSixe4XLarge, $fontWeightLessBold, $headerText);
 }
 
 .motto {

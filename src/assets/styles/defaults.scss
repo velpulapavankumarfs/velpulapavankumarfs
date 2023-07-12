@@ -84,10 +84,6 @@
 } 
 
 .para {
-    @include font-base($fontSixeXXLarge, $fontWeightNormal);
+    @include font-base($fontSixeXLLarge, $fontWeightNormal);
     line-height: 1.4rem;
 } 
-
-.upperCase {
-    text-transform: uppercase;
-}

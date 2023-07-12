@@ -5,9 +5,13 @@
     min-height: 500px;
     padding-top: 10%;
     padding-bottom: 20px;
+
+    b {
+        color: $white;
+    }
 }
 
 .summary {
-    @include font-base($fontSixeXXLarge, $fontWeightThick);
+    @include font-base($fontSixeXXLarge, $fontWeightLessBold);
     line-height: 1.5rem;
 }

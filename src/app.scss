@@ -1,7 +1,7 @@
 .app {
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 0% 12%;
+  padding: 0% 20%;
   flex-direction: row;
   text-align: left;
 }
@@ -12,4 +12,17 @@
     display: flex;
     flex-direction: column;
   }
+}
+
+.cursor-effect {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity:0.1;
+  pointer-events: none;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: radial-gradient(ellipse farthest-corner at      center center, #E2E8F0 0%, #0F182A 75%);
+  transform: translate(-50%, -50%);
 }
