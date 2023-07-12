@@ -1,5 +1,5 @@
 export const name = "Pavan Kumar Velpula";
-export const JobTitle = "Front End Developer";
+export const JobTitle = "Web and Mobile Developer";
 export const motto = "Building exceptional applications, one line of code at a time.";
 export const footerNote = "Crafted with React, Sass, and ES6 to create an engaging and visually stunning website experience.";
 export const summary = [
@@ -39,7 +39,6 @@ export const experiences = [
        developers to ensure seamless data integration. By prioritizing security, usability, and efficient data management.`,
     tools: ["React", "Redux", "GraphQL", "Typescript", "React-testing Library", "Jest", "Material UI", "HTML5", "Sass"],
   },
-
   {
     title: "Sr. Software Engineer at Trane,St Paul - MN",
     url: "https://www.tranetechnologies.com/en/index.html",
@@ -54,7 +53,6 @@ export const experiences = [
        I deliver versatile applications that meet the company's requirements and drive its success in the digital landscape.`,
        tools: ["React", "Redux", "GraphQL", "Typescript", "Material UI", "HTML5", "Sass"],
   },
-
   {
     title: "Frontend Developer at Charles Schwab, IL",
     url: "https://www.schwab.com/",
@@ -64,7 +62,6 @@ export const experiences = [
       "Worked on variety of project at Schwab like options express(migration), street smart central, mobile application development. ",
     tools: ["Angular", "Redux", "GraphQL", "Typescript", "Material UI", "HTML5", "Sass"],
   },
-
   {
     title: "Software Engineer at Aadi Solutions, India",
     url: "/",

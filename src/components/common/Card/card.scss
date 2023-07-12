@@ -41,6 +41,7 @@
     color: $buttonPrimaryText;
     background-color: $buttonBackgroundColor;
     margin-right: 10px;
+    margin-bottom: 10px;
     height: 30px;
     vertical-align: middle;
     pointer-events: none;
@@ -55,4 +56,19 @@ img {
     margin-top: 15px;
     height: 80px;
     width: 140px;
+}
+
+@media (max-width:768px) {
+    .para {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    img {
+        height: 70px;
+        width: 100px;
+    }
 }

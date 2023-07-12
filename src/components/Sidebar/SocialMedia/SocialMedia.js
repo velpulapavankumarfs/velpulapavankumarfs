@@ -1,14 +1,18 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import {github, instagram, linkdin, twitter} from 'utils/url';
 import './socialmedia.scss';
 
 const SocialMedia = () => {
+  const handleNavigation = (url) => {
+    window.open(url, "_blank");
+  };
   return (
     <div className="network">
-        <FontAwesomeIcon className="icon" icon={faGithub} />
-        <FontAwesomeIcon className="icon" icon={faInstagram} />
-        <FontAwesomeIcon className="icon" icon={faTwitter} />
-        <FontAwesomeIcon className="icon" icon={faLinkedin} />
+        <FontAwesomeIcon className="icon" onClick={()=>handleNavigation(github)} icon={faGithub} />
+        <FontAwesomeIcon className="icon" onClick={()=>handleNavigation(instagram)} icon={faInstagram} />
+        <FontAwesomeIcon className="icon" onClick={()=>handleNavigation(linkdin)} icon={faTwitter} />
+        <FontAwesomeIcon className="icon" onClick={()=>handleNavigation(twitter)} icon={faLinkedin} />
     </div>
   );
 };
