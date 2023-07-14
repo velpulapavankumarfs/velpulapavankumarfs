@@ -11,8 +11,8 @@ const SocialMedia = () => {
     <div className="network">
         <FontAwesomeIcon className="icon" onClick={()=>handleNavigation(github)} icon={faGithub} />
         <FontAwesomeIcon className="icon" onClick={()=>handleNavigation(instagram)} icon={faInstagram} />
-        <FontAwesomeIcon className="icon" onClick={()=>handleNavigation(linkdin)} icon={faTwitter} />
-        <FontAwesomeIcon className="icon" onClick={()=>handleNavigation(twitter)} icon={faLinkedin} />
+        <FontAwesomeIcon className="icon" onClick={()=>handleNavigation(linkdin)} icon={faLinkedin} />
+        <FontAwesomeIcon className="icon" onClick={()=>handleNavigation(twitter)} icon={faTwitter} />
     </div>
   );
 };

@@ -16,7 +16,7 @@ export const experiences = [
   {
     title: "Web Developer at eTrade",
     url: "https://us.etrade.com/",
-    startDate: "JUL 2018",
+    startDate: "JUL 2021",
     endDate: "Present",
     description:
       `Worked power-eTrade application (stocks trading platform), my role is to design and implement a user-friendly 
